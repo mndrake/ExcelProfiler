@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcelProfiler", "ExcelProfiler\ExcelProfiler.csproj", "{33577CAA-55BC-473A-9325-617A58D42266}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "bin", "bin", "{70767ED8-123B-49D7-9525-4CD25F14C107}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{70767ED8-123B-49D7-9525-4CD25F14C107}"
 	ProjectSection(SolutionItems) = preProject
 		bin\Microsoft.Office.Interop.Excel.dll = bin\Microsoft.Office.Interop.Excel.dll
 		bin\OFFICE.DLL = bin\OFFICE.DLL

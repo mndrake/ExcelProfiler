@@ -1,0 +1,20 @@
+<DnaLibrary Name="ExcelProfiler Add-In" RuntimeVersion="v4.0">
+  <Reference Path="office.dll" Pack="true" />
+  <Reference Path="Microsoft.Office.Interop.Excel.dll" Pack="true" />
+  <ExternalLibrary Path="ExcelProfiler.dll" LoadFromBytes="true" Pack="true" />
+
+  <CustomUI>
+    <customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui">
+      <ribbon>
+        <tabs>
+          <tab idMso="TabDeveloper" >
+            <group id="Profiler" label='Profiler'>
+              <button id='ProfileActiveWorkbook' onAction='OnProfileActiveWorkbook' imageMso='AutoSum' label='Profile Workbook' size='large' />          
+            </group>
+          </tab>
+        </tabs>
+      </ribbon>
+    </customUI>
+  </CustomUI>
+  
+</DnaLibrary>
